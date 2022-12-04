@@ -1,0 +1,208 @@
+body
+{
+    font-family: 'sans-serrif';
+}
+.navbar
+{
+    background-color: #0B2E44;
+}
+.navbar-light .dropdown-menu
+{
+    background-color: #0B2E44;
+}
+.navbar .navbar-nav .nav-item a
+{
+
+    font-size: 19px;
+    color: #f2f2f2;
+    transition: background-color 500ms ease, color 500ms ease;
+}
+.navbar .navbar-nav .nav-item a:hover
+{
+    background-color: black;
+    border-radius: 5px;
+    color: red;
+}
+
+.login_navbar h2
+{
+    text-align: center;
+    background-color: #404040;
+    padding: 3px;
+    color: #F0F8FF;
+}
+.login_part
+{
+    margin-top: 60px;
+    padding: 25px;
+    border-radius: 2%;
+    /* background-color:  #e6e6e6; */
+
+}
+.form-control
+{
+    border-radius: 50px;
+}
+.login_part_image
+{
+    text-align: center;
+}
+.login_part_image img
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 15px;
+}
+.login_part_image h4
+{
+    margin-bottom: 15px;
+    font-size: 30px;
+    border-bottom: 3px solid #cccccc;
+    padding-bottom: 5px;
+}
+.add_form_image
+{
+    text-align: center;
+}
+.add_form_image img
+{
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.add_image h4
+{
+    margin-bottom: 15px;
+    font-size: 30px;
+    border-bottom: 3px solid #cccccc;
+    padding-bottom: 5px;
+}
+.add_form
+{
+    padding: 25px;
+    border-radius: 2%;
+    /* background-color:  #e6e6e6; */
+}
+.table, .table a, .table button
+{
+    font-size: 15px;
+}
+.active_page
+{
+	background: #bfbfbf;
+}
+.active_page, .inactive_page
+{
+    color: white;
+}
+.pagination,
+.pagination li a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.inactive_page
+{
+	background: #33383E;
+}
+.add_form_image h4
+{
+    border-bottom: 3px solid #cccccc;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+.view_information h4
+{
+    border-bottom: 3px solid #cccccc;
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+.create_election_form
+{
+    padding: 30px;
+    background-color:  #e6e6e6;
+}
+.candidate_field
+{
+    margin-top: 10px;
+}
+.create_election_image
+{
+    margin-left:10px;
+    margin-top: -14px;
+}
+.election_designation_details_group
+{
+    color: white;
+    border: 2px solid blue;
+}
+.eletion_name_year_title
+{
+    border-radius: 15px;
+    background-color: #0B2E44;
+    color:#f2f2f2;
+}
+.btn-success
+{
+    transition: background-color 500ms ease, color 500ms ease;
+}
+.btn-success
+{
+    background-color:#124a6e;
+    border: 1px solid #124a6e;
+    border-radius: 0;
+    font-weight:bold;
+}
+.btn-success:hover
+{
+    color: #e63449;
+    background-color: black;
+    border: 1px solid black;
+}
+.btn_color
+{
+    color: #19689a;
+    transition: color 500ms ease, background-color 500ms ease;
+}
+.btn_color:hover
+{
+    color: #e63449;
+    background-color: black;
+}
+.info_details
+{
+    color: #0B2E44;
+}
+
+.home_container {
+  position: relative;
+  max-width: 100%; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+.home_container .home_content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: #0B2E44;
+  opacity: 0.8;
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+.welcome_text
+{
+    border: 3px solid #0B2E44;
+    border-radius: 5%;
+    padding: 5px;
+}
+.developer_img
+{
+    border: 3px solid #0B2E44;
+    padding: 5px;
+    border-radius: 2%;
+}
